@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title TAFT COFFEE</title>
+
+    <link href="~/Content/SiteShared.css" rel="stylesheet">
+</head>
+<body style="background-color: #ebebeb">
+    <div style="background-color:black; color:white; height:25px; font-style:italic; font-weight:bold; text-align:center"> ÜCRETSİZ ve HIZLI KARGO </div>
+
+    <div class="topnav">
+        <a href="https://localhost:44309/Home/Index">Anasayfa</a>
+        <a href="https://localhost:44309/Home/Product">Ürünler</a>
+        <a href="https://localhost:44309/Home/About">Hakkımızda</a>
+        <a href="https://localhost:44309/Home/Contact">İletişim</a>
+    </div>
+
+    
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+        <br />
+        <footer style="position:fixed">
+            <p style="text-align:center"> - TAFT COFFEE CO. © 2021 - </p>
+        </footer>
+    </div>
+
+</body>
+</html>
